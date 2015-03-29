@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "isbuffer": "0.0.0",
+    "isstream": "^0.1.2",
+    "machine": "^3.0.0"
+  },
+  "machinepack": {
+    "machines": ["decrypt", "decrypt-stream", "decrypt-stream-file", "encrypt", "encrypt-stream", "encrypt-stream-file"],
+    "machineVersions": {
+      "decrypt": "0.1.0",
+      "decrypt-stream": "0.1.0",
+      "decrypt-stream-file": "0.0.0",
+      "encrypt": "0.1.0",
+      "encrypt-stream": "0.1.0",
+      "encrypt-stream-file": "0.0.0"
+    }
+  }
+}

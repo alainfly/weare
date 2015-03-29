@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "lodash": "*"
+  },
+  "machinepack": {
+    "machines": ["DoesSessionValueExist_question", "Forget", "GetSessionVariable", "Remember"],
+    "machineVersions": {
+      "DoesSessionValueExist_question": "2.1.0",
+      "Forget": "1.4.0",
+      "GetSessionVariable": "1.4.0",
+      "Remember": "1.4.0"
+    }
+  }
+}

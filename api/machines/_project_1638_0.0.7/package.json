@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "machinepack": {
+    "machines": ["create_user", "destroy_user", "findOne_user", "blueprintFind_user", "find_user", "SessionCheck", "update_user"],
+    "machineVersions": {
+      "create_user": "0.0.6",
+      "destroy_user": "0.0.6",
+      "findOne_user": "0.0.6",
+      "blueprintFind_user": "0.0.6",
+      "find_user": "0.0.6",
+      "SessionCheck": "0.0.1",
+      "update_user": "0.0.6"
+    }
+  }
+}

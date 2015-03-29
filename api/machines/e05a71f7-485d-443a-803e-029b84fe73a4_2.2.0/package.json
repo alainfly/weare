@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "machine": "^1.1.0"
+  },
+  "machinepack": {
+    "machines": ["check-password", "encrypt-password"],
+    "machineVersions": {
+      "check-password": "0.1.0",
+      "encrypt-password": "0.1.0"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+
+  <body ng-app="loginModule" ng-controller="loginController" ng-cloak> 
+<div class="container-fluid">
+
+      <!-- Creates the navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+      
+          <!-- This creates the mechanism for the collapse button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+      
+            <!-- This controls the number of lines in the image when the nav collapse -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- This is the brand on the left-hand side. -->
+          <a class="navbar-brand" href="/#"> <img src="images/logo1.jpg" alt="" width="70" height="50"  /></a>
+          <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+
+          <!-- LOGIN FORM -->  
+
+          <div class="navbar-form navbar-right">
+              <!-- E M A I L -->
+              <div class="form-group">
+                  <a href="/signup" type="submit" class="btn btn-info btn-lg ">Option</a>
+              </div>
+
+              <!-- P A S S W O R D -->
+            
+              <div class="form-group">
+                 <a href="/login" type="submit" class="btn btn-danger btn-lg ">Log out</a>
+              </div>
+             
+          </div>
+        </nav>
+      </div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2><%= ></h2>
+				<span class="byline">Phasellus nec erat sit amet nibh pellentesque congue</span> </div>
+			<p>This is <strong>Stratagem</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+			<ul class="style3">
+				<li class="first">
+					<h3><em><img src="images/pic02.jpg" alt="" width="140" height="140" class="alignleft border" /></em>Lorem ipsum dolor interdum</h3>
+					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>
+					<a href="#">Read More</a>
+				</li>
+				<li>
+					<h3><em><img src="images/pic03.jpg" alt="" width="140" height="140" class="alignleft border" /></em>Magna phasellus etiam ultrices</h3>
+					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>
+					<a href="#">Read More</a>
+				</li>
+				<li>
+					<h3><em><img src="images/pic04.jpg" alt="" width="140" height="140" class="alignleft border" /></em>Magna phasellus etiam ultrices</h3>
+					<p>Ut vel nisl tristique justo ornare iaculis. Suspendisse suscipit, orci ac interdum viverra, nulla orci facilisis mi, a ultrices mi lectus vitae felis. Morbi suscipit adipiscing orci et blandit. Morbi a nulla ut tellus blandit placerat a quis eros.</p>
+					<a href="#">Read More</a>
+				</li>
+			</ul>
+		</div>
+		<div id="sidebar">
+			<div class="box1">
+				<div class="title">
+					<h2>Integer gravida</h2>
+				</div>
+				<ul class="list-style1">
+					<li class="first">
+						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus, cursus egestas at sem. </p>
+						<p><a href="#" class="link-style">Read More</a></p>
+					</li>
+					<li>
+						<p>Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus  at sem. Suspendisse suscipit, orci ac interdum viverra.</p>
+						<p><a href="#" class="link-style">Read More</a></p>
+					</li>
+				</ul>
+			</div>
+			<div class="box2">
+				<div class="title">
+					<h2>pendisse suscipit</h2>
+				</div>
+				<ul class="style2">
+					<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+					<li><a href="#">Ornare in hendrerit in lectus</a></li>
+					<li><a href="#">Semper mod quis eget mi dolore</a></li>
+					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+					<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+					<li><a href="#">Consequat etiam lorem phasellus</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
