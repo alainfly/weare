@@ -1,15 +1,8 @@
 {
   "dependencies": {
-    "machine": "^3.0.0",
-    "lodash": "^3.5.0"
+    "machinepack-ifthen": "0.2.0"
   },
   "machinepack": {
-    "machines": ["if-defined", "if-equal", "if-greater-than", "if-less-than"],
-    "machineVersions": {
-      "if-defined": "0.0.0",
-      "if-equal": "0.0.0",
-      "if-greater-than": "0.0.0",
-      "if-less-than": "0.0.0"
-    }
+    "machines": []
   }
 }
